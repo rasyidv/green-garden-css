@@ -1,0 +1,960 @@
+*  {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Awal Navigasi Style */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ececec;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: rgb(20, 54, 63);
+}
+.header .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  position: relative;
+  align-items: center;
+}
+.header .logo {
+  width: 300px;
+  color: ;
+  background-color:;
+}
+.header .logo img  {
+  width: 200px;
+  height: 50px;
+}
+.header .menu {
+  position: relative;
+}
+.header .menu .menu-list {
+  display: flex;
+}
+.header .menu-list .item {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.header .menu-list .item a  {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.header .menu .menu-burger {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: none;
+  width: 30px;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  margin: 20px;
+}
+.header .menu-burger .bar {
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  margin: 2px 0;
+}
+.header .submenu {
+  position: absolute;
+  right: 0;
+  top: -300px;
+  background: rgb(20, 54, 63);
+  height: 200px;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+}
+.header .submenu ul  {
+  background: ; 
+}
+.header .submenu ul li  {
+  list-style: none;
+  margin: 0 50px;
+  padding: 5px 5px 5px 5px;
+}
+.header .submenu ul li a  {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.header .submenu.show {
+  top: 100%;
+}
+/* Akhir Dari Navigasi Style*/
+
+
+/* Awal Cover Image Style */
+.cover  {
+  background-image: url("assets/pexels-photo-635405.jpeg");
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 150px;
+  padding: 100px;
+} 
+.cover .cover-desc1  {
+  font-family: cursive; 
+  font-size: 150%; 
+  color:#fff; 
+  font-style: italic;
+}
+.cover .cover-desc2  {
+  font-size: 100%; 
+  color: #fff;
+}
+.cover .cover-button  {
+  color: #fff;
+}
+.cover .button  {
+  background-color: #4CAF50;
+  padding: 15px 25px 15px 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 20px;
+  position: relative;
+} 
+.cover a  {
+  text-decoration: none;
+  z-index: -1;
+}
+.cover .arrow-button  {
+  margin-left: 10px;
+}
+/* Akhir Cover Image Style */
+
+
+/* Awal Main Content 1 Style */
+.content1  {
+  background: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+.content1-desc1 {
+  font-family: cursive;
+  font-style: italic;
+}
+.badge  {
+  background-color: #fff;
+  display: flex;
+  padding: 1em;
+  align-content: center;
+  padding-top: 60px;
+}
+.box  {
+  flex: 1;
+  background-color: #fff;
+  padding: 1em;
+  margin: .6em;
+  text-align: center;          
+}
+.box .desc1  {
+  font-size: 80%;
+}
+.box .desc2  {
+  font-size: 80%;
+}
+.box .desc3  {
+  font-size: 80%;
+}
+.box .desc4  {
+  font-size: 80%;
+}
+/* Akhir Main Content 1 Style */
+
+
+/* Awal Main Content 2 Style */
+.content2  {
+  background: #fff;
+  text-align: center;
+}
+.content2-desc1 {
+  font-family: cursive;
+  font-style: italic;
+}
+.box2 .satu  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .dua  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .tiga  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .empat  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .desc1  {
+  font-size: 80%;
+  padding-bottom: 20px;
+}
+.box2 .desc2  {
+  font-size: 80%;
+}
+.box2 .desc3  {
+  font-size: 80%;
+}
+.box2 .desc4  {
+  font-size: 80%;
+}
+.specialservice  {
+  background-color: #fff;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 380px;
+}
+.box2  {
+  flex-direction: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  border: 1px solid lightgray;
+  margin: 20px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+  height: 280px;
+}
+/* Akhir Main Content2 Style */
+
+
+/* Awal Footer Style */
+.footer  {
+  background: rgb(20, 54, 63);
+  display: flex;
+}
+.box3  {
+  justify-content: center;
+  width: 50%;
+  margin: 80px;
+}
+.box3 .box3-p1  {
+  color: #fff;
+}
+.box3 .box3-a1 a {
+  text-decoration: none; 
+  color: #4CAF50; 
+  font-weight: bold;
+}
+.box3 .box3-h52  {
+  font-size: 150%;
+  color:#fff;
+}
+.box3 .box3-p2  {
+ line-height: 1.5em;
+ color: #fff;
+}
+.box3 .box3-h53  {
+  font-size: 150%;
+  color: #fff;
+}
+.box3 button  {
+  font-size: 100%; 
+  color: #fff; 
+  background: #4CAF50; 
+  width: 30%; 
+  padding: 10px 15px 10px 15px; 
+  margin-left: 200px; 
+  margin-top: 10px; 
+  border-radius: 10px;
+}
+/* Awal Hak Cipta Style */
+.hakcipta  {
+  background:black;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.box4  {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+}
+.box4 p  {
+  color: #fff;
+  margin-left: 60px;
+}
+.box4 ul  {
+  justify-content: flex-end;
+  margin-right: 60px;
+}
+.box4  ul li  {
+  display: inline-flex;
+  list-style: none;
+}
+.box4 a  {
+  text-decoration: none;
+}
+
+/* Akhir Hak Cipta Style */
+/* Akhir Footer Style */
+  
+
+ /* Style For Responsive Navigasi Bar Style*/
+@media (max-width: 480px) {
+  .header .menu .menu-list {
+    display: none;
+  }
+  .header .logo {
+    padding: 5px;
+  }
+  .header .menu .menu-burger {
+    display: flex;
+  }
+
+
+/* Awal Responsive Cover Image Style*/
+  .cover  {
+    background-image: url("assets/pexels-photo-635405.jpeg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 400%;
+    padding: 100px;
+  } 
+  .cover .cover-desc1  {
+    font-family:  cursive; 
+    font-size: 60%; 
+    color:#fff; 
+    font-style: italic;
+  }
+  .cover .cover-desc2  {
+    font-size: 60%; 
+    color: #fff;
+  }
+  .cover .cover-button  {
+    color: #fff;
+  }
+  .cover .button  {
+    background-color: #4CAF50;
+    padding: 2px 4px 2px 4px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    font-size: 50%;
+    position: relative;
+    text-align: right;
+  } 
+  .cover a  {
+    text-decoration: none;
+    z-index: -1;
+  }
+  .cover .arrow-button  {
+    margin-left: 10px;
+    width: 10%;   
+  }
+/* Akhir Responsive Cover Image Style */
+
+
+/* Awal Responsive Main Content 1 Style */
+.content1  {
+  background: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+.content1-desc1 {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 60%;
+}
+.content1-desc2  {
+  font-size: 60%;
+}
+.badge  {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-content: center;
+  padding-top: 60px;
+}
+.box  {
+  flex: 1;
+  background-color: #fff;
+  padding: 1em;
+  margin: .6em;
+  text-align: center; 
+  line-height: 150%;         
+}
+.box .reputation  {
+  font-size: 70%;
+}
+.box .desc1  {
+  font-size: 60%;
+}
+.box .legality  {
+  font-size: 70%;
+}
+.box .desc2  {
+  font-size: 60%;
+}
+.box .quality  {
+  font-size: 70%;
+}
+.box .desc3  {
+  font-size: 60%;
+}
+.box .price  {
+  font-size: 70%;
+}
+.box .desc4  {
+  font-size: 60%;
+}
+/* Akhir Responsive Main Content 1 */
+
+
+/* Awal Responsive Main Content 2 Style */
+.content2  {
+  background: #fff;
+  text-align: center;
+}
+.content2-desc1 {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 60%;
+}
+.content2-desc2  {
+  font-size: 60%;
+}
+.specialservice  {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10px;
+  height: 100%;
+  padding-bottom: 50px;
+}
+.box2  {
+  width: 100%;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+  height: 20%; 
+}
+.box2 .satu  { 
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .dua  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .tiga  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .empat  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 h3  {
+  font-size: 70%;
+}
+.box2 .desc1  {
+  font-size: 60%;
+  padding-bottom: 20px;
+}
+.box2 .desc2  {
+  font-size: 60%;
+  padding-bottom: 20px;
+}
+.box2 .desc3  {
+  font-size: 60%;
+  padding-bottom: 20px;
+}
+.box2 .desc4  {
+  font-size: 60%;
+  padding-bottom: 20px;
+}
+/* Akhir Responsive Main Content2 Style */
+
+
+/* Awal Responsive Footer */
+.footer  {
+  background: rgb(20, 54, 63);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box3  {
+  justify-content: center;
+  margin: 50px;
+  width: 50%;
+  padding-bottom: 30px;
+}
+.box3 img  {
+  width: 100%;
+}
+.box3 .box3-p1  {
+  color: #fff;
+  font-size: 70%;
+}
+.box3 .box3-a1 a {
+  text-decoration: none; 
+  color: #4CAF50; 
+  font-weight: bold;
+  font-size: 70%;
+}
+.box3 .box3-h52  {
+  font-size: 150%;
+  color:#fff;
+}
+.box3 .box3-p2  {
+ line-height: 1.5em;
+ color: #fff;
+ font-size: 70%;
+}
+.box3 .box3-h53  {
+  font-size: 150%;
+  color: #fff;
+}
+.box3 button  {
+  font-size: 100%; 
+  color: #fff; 
+  background: #4CAF50; 
+  width: 40%; 
+  margin-left: 1px;
+  margin-top: 10px; 
+  border-radius: 10px;
+}
+/* Responsive Awal Hak Cipta */
+.hakcipta  {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: ;
+  height: 100%;
+}
+.box4  {
+  padding: 1em;
+}
+.box4 p  {
+  color: #fff;
+  margin-right: 50px;
+  font-size: 80%;
+  text-align: center;
+}
+.box4 ul  {
+  align-items: center;
+  width: 60%;
+}
+.box4  ul li  {
+  display: inline-flex;
+  list-style: none;
+  margin: 5px;
+}
+.box4 a  {
+  text-decoration: none;
+}
+/* Responsive Akhir Hak Cipta */
+/* Responsive AKhir Footer */
+}
+
+
+ @media (min-width: 481px) and (max-width: 768px) {
+
+.header .menu .menu-list {
+  display: none;
+}
+.header .logo {
+  padding: 5px;
+}
+
+.header .menu .menu-burger {
+  display: flex;
+}
+
+/* Responsive Cover Image Style */
+.cover  {
+  background-image: url('assets/pexels-photo-635405.jpeg');
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 150px;
+  padding: 100px;
+} 
+.cover .cover-desc1  {
+  font-family:  cursive; 
+  font-size: 80%; 
+  color:#fff; 
+  font-style: italic;
+}
+.cover .cover-desc2  {
+  font-size: 100%; 
+  color: #fff;
+}
+.cover .cover-button  {
+  color: #fff;
+}
+.cover .button  {
+  background-color: #4CAF50;
+  padding: 3px 6px 3px 6px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  font-size: 100%;
+  position: relative;
+  text-align: right;
+} 
+.cover a  {
+  text-decoration: none;
+  z-index: -1;
+}
+.cover .arrow-button  {
+  margin-left: 10px;
+  width: 10%;   
+}
+/* Akhir Responsive Cover Image Style */
+
+
+/* Awal Responsive Main Content 1 Style */
+.content1  {
+  background: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+.content1-desc1 {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 80%;
+}
+.content1-desc2  {
+  font-size: 80%;
+}
+.badge  {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-content: center;
+  padding-top: 60px;
+}
+.box  {
+  flex: 1;
+  background-color: #fff;
+  padding: 1em;
+  margin: .6em;
+  text-align: center; 
+  line-height: 150%;  
+}
+.box img  {
+  width: 25%;
+}
+.box .reputation  {
+  font-size: 90%;
+}
+.box .desc1  {
+  font-size: 70%;
+}
+.box .legality  {
+  font-size: 90%;
+}
+.box .desc2  {
+  font-size: 70%;
+}
+.box .quality  {
+  font-size: 90%;
+}
+.box .desc3  {
+  font-size: 70%;
+}
+.box .price  {
+  font-size: 90%;
+}
+.box .desc4  {
+  font-size: 70%;
+}
+/* Akhir Responsive Main Content 1 Style */
+
+
+/* Awal Responsive Main Content 2 Style */
+.content2  {
+  background: #fff;
+  text-align: center;
+}
+.content2-desc1 {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 80%;
+}
+.content2-desc2  {
+  font-size: 80%;
+}
+.specialservice  {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 100px;
+  height: 100%;
+  padding-bottom: 50px;
+  margin: 0;
+}
+.box2  {
+  flex-direction: ;
+  align-items: ;
+  text-align:;
+  width: 100%;
+  border: 1px solid lightgray;
+  margin:;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+  height: 20%; 
+}
+.box2 .satu  { 
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .dua  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .tiga  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 .empat  {
+  width: 100%;
+  height: auto;
+  margin: 0;  
+}
+.box2 h3  {
+  font-size: 90%;
+}
+.box2 .desc1  {
+  font-size: 70%;
+  padding-bottom: 20px;
+}
+.box2 .desc2  {
+  font-size: 70%;
+  padding-bottom: 20px;
+}
+.box2 .desc3  {
+  font-size: 70%;
+  padding-bottom: 20px;
+}
+.box2 .desc4  {
+  font-size: 70%;
+  padding-bottom: 20px;
+}
+/* Akhir Responsive Main Content2 Style */
+
+
+/* Responsive Footer Style */
+.footer  {
+  background: rgb(20, 54, 63);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box3  {
+  justify-content: center;
+  margin: 80px;
+  width: 50%;
+}
+.box3 .box3-p1  {
+  color: #fff;
+  font-size: 80%;
+}
+.box3 .box3-a1 a {
+  text-decoration: none; 
+  color: #4CAF50; 
+  font-weight: bold;
+}
+.box3 .box3-h52  {
+  font-size: 150%;
+  color:#fff;
+}
+.box3 .box3-p2  {
+ line-height: 1.5em;
+ color: #fff;
+ font-size: 80%;
+}
+.box3 .box3-h53  {
+  font-size: 150%;
+  color: #fff;
+}
+.box3 button  {
+  font-size: 100%; 
+  color: #fff; 
+  background: #4CAF50; 
+  width: 35%; 
+  margin-top: 10px; 
+  margin-left: 5px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+/* Responsive Awal Hak Cipta */
+.hakcipta  {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.box4  {
+  padding: 1em;
+  width: 100%;
+}
+.box4 p  {
+  color: #fff;
+  margin-right: 50px;
+  font-size: 80%;
+  text-align: center;
+  width: 100%;
+}
+.box4 ul  {
+  align-items: center;
+  width: 100%;
+  padding-left: 35%;
+}
+.box4  ul li  {
+  display: inline-flex;
+  list-style: none;
+  margin: 5px;
+}
+.box4 a  {
+  text-decoration: none;
+}
+.box4 li a img  {
+  width: 100%;
+}
+/* Responsive Akhir Hak Cipta */
+/* Responsive AKhir Footer */
+}
+
+
+@media (min-width: 769px) and (max-width: 1400px)  {
+  .header .submenu {
+    display: none;
+  }
+  /* Awal Responsive Footer */
+.footer  {
+  background-color: rgb(20, 54, 63);
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  height: 380px;
+}
+.box3  {
+  flex-direction: center;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin: 20px;
+  height: 280px;
+}
+.box3 .box3-p1  {
+  color: #fff;
+  font-size: 100%;
+}
+.box3 .box3-a1 a {
+  text-decoration: none; 
+  color: #4CAF50; 
+  font-size: 100%;
+  font-weight: bold;
+}
+.box3 .box3-h52  {
+  font-size: 150%;
+  color:#fff;
+}
+.box3 .box3-p2  {
+ line-height: 1.5em;
+ color: #fff;
+}
+.box3 .box3-h53  {
+  font-size: 150%;
+  color: #fff;
+}
+.box3 button  {
+  font-size: 100%; 
+  color: #fff; 
+  background: #4CAF50; 
+  width: 30%; 
+  padding: 10px 15px 10px 15px; 
+  margin-left: 250px; 
+  margin-right: 40px;
+  margin-top: 10px; 
+  border-radius: 10px;
+}
+
+
+/* Awal Responsive Hak Cipta */
+.hakcipta  {
+  background:black;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.box4  {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em; 
+}
+.box4 p  {
+  color: #fff;
+  margin-left: 60px;
+}
+.box4 ul  {
+  justify-content: flex-end;
+  margin-right: 60px;
+}
+.box4  ul li  {
+  display: inline-flex;
+  list-style: none;
+}
+.box4 a  {
+  text-decoration: none;
+  padding: 5px;
+}
+/* Akhir Responsive Hak Cipta */
+/* Akhir Responsive Footer */
+}
